@@ -19,7 +19,7 @@ Web Scraping and Knowledge Graphs with Machine Learning
 
  - The first step of building a knowledge graph is to split the text document or article into sentences. Then we limit our examples to simple sentences with one subject and one object.
 
-##Entity extraction
+## Entity extraction
 
  - You can extract a single word entity from a sentence with the help of parts-of-speech (POS) tags. The nouns and proper nouns will be the entities. These nodes are going to be entities that are present in the Wikipedia sentences. Edges are the relationships connecting these entities. We will extract these elements in an unsupervised manner, i.e. we’ll use the grammar of the sentences.
 
